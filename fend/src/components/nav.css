@@ -1,0 +1,55 @@
+.nav{
+    width: 100%;
+    height: 8vh;
+    background-color: rgb(22, 26, 30);
+    font-size: 20px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 6.5px 25px;
+}
+.nav>a,.nav>div{
+    text-decoration: none;
+    color: white;
+    height: 100%;
+}
+.logo{
+    width: 70px;
+    height: 30px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.nav-login{
+    position: relative;
+    height: 100%;
+}
+.new-sign{
+    display: none;
+    justify-content: space-between;
+    padding: 2px;
+    position: absolute;
+    top: 100%;
+    width: 200px;
+    height: 70px;
+    background-color: cadetblue;
+    font-size: 15px;
+}
+.nav-login:hover .new-sign{
+    display: flex;
+}
+
+.nav-search{
+    width: 50%;
+}
+.nav-search>input{
+    width: 95%;
+    height: 100%;
+    padding-left: 10px;
+}
+.nav-search>button{
+    width: 5%;
+    height: 100%;
+}
